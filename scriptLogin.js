@@ -24,7 +24,7 @@ function loginUser(event) {
             console.log(document.cookie);
 
             alert("Connexion réussie!");
-            window.location.href = "Prostage1.html";
+            window.location.href = "index.html";
         } else {
             alert("E-mail ou mot de passe incorrect!");
         }
