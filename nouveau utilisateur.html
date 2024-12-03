@@ -1,0 +1,45 @@
+<html>
+<header>
+    <link rel="stylesheet" href="Se connecter style.css" type="text/css">
+</header>
+
+<body>
+    <form method="post" action="Se Connecter">
+        <fieldset>
+            <table align="center" cellspacing="20">
+                <legend align="center"> <b>Entrer Vos Informations</b> </legend>
+                <p>
+                    <tr>
+                        <td><label for="Nom">Nom:</label></td>
+                        <td><input type="nom" name="nom" id="nom" placeholder="votre nom" required /><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Prenom">Prénom:</label></td>
+                        <td><input type="prenom" name="prenom" id="prenom" placeholder="votre prénom" required /><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="E-mail">E-mail:</label></td>
+                        <td><input type="email" name="email" id="email" placeholder="exemple@gmail.com" required /><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Code"> Code : </label></td>
+                        <td><input type="password" name="password" id="password" placeholder="crée votre code"required /><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Code"> Code : </label></td>
+                        <td><input type="password" name="password" id="password_verified" placeholder="confirme votre code"required /><br></td>
+                    </tr>
+                </p>
+            </table>
+            <p align="center">
+                <button id="submit_btn" type="submit"> Se Connecter </button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+<script src="nouveauutilisateur.js">
+</script>
+</html>

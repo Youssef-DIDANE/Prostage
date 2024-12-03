@@ -1,0 +1,35 @@
+<html>
+<header>
+    <link rel="stylesheet" href="Se connecter style.css" type="text/css">
+</header>
+
+<body>
+    <form method="post" action="Se Connecter">
+        <fieldset>
+            <p align="center"> En cas de perte de mot de passe on envoie une page à votre boite E-mail pour réinitialiser votre mot de passe</p>
+            <table align="center" cellspacing="20">
+                <legend> <b>Réinitialiser Votre Mot De Passe</b> </legend>
+                <p>
+                    <tr>
+                        <td><label for="E-mail">E-mail:</label></td>
+                        <td><input type="email" name="email" id="email" placeholder="votre email" required /><br>
+                        </td>
+                    </tr>
+                </p>
+            </table>
+            <p align="center">
+                <button id="submit_btn" type="submit"> Envoyer </button>
+            </p>
+        </fieldset>
+    </form>
+    <div id="message" style="display:none; text-align:center;">
+        <p>Un lien de réinitialisation a été envoyé à votre adresse e-mail. (Simulé)</p>
+    </div>
+</body>
+<script>
+    document.getElementById("submit_btn").addEventListener(
+                'click',
+                () => document.getElementById('message').style.display = 'block'
+            );
+</script>
+</html>

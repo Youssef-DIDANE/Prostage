@@ -1,0 +1,54 @@
+nav {
+    background-color: rgb(255, 133, 3);
+    padding: 10px 0;
+    font-size: large;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(255, 133, 3);
+    text-align: center;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #fcfbfb;
+    color: #6b6b6b;
+    border-radius: 5px;
+}
+
+.connect-button {
+    background-color: rgb(255, 133, 3);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.connect-button:hover {
+    background-color: rgb(255, 253, 253);
+}
+
+.imageflottante {
+    float: left;
+    margin-right: 10px;
+}
+
+body {
+    background-image: url("banner\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+}

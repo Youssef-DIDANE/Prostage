@@ -1,0 +1,86 @@
+header{
+    text-align: center;
+    background-color: #fc8c02;
+    padding: 10px 0;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #6f6d6d;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    color: #ffffff;
+    background-color: #030cfe;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(89, 84, 84);
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.paragraphe {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #191818;
+}
+
+
+.paragraphe p {
+    margin: 10px 0px;
+    font-size: 20px;
+    
+    
+}
+
+.paragraphe ul li {
+    margin: 10px 0px;
+    font-size: 20px;
+    
+}
+
+.booton{
+    color: #ffffff;
+    background-color: #fc8c02;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 13.5px;
+}
+
+.booton :hover{
+    background-color: #959391;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #056df5;
+    color: #ffffff;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #d1cac2;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

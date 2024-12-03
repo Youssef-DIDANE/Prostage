@@ -1,0 +1,14 @@
+    <style>
+        nav ul { display: flex; justify-content: space-around }
+
+        nav ul li {display: inline }
+
+        nav ul li a {color: #e27e43; text-align: center }
+
+        nav ul li a:hover { 
+background-color: #ffffff}
+
+        .connect-button { background-color: #cc723b; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px}
+
+        .connect-button:hover {background-color: #cc723b}
+    </style>
